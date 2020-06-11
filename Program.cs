@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Abstraction.AbstractClass;
-//using Abstraction.Interface;
+using Abstraction.AbstractClass;    // Menggunakan Abstract Class
+//using Abstraction.Interface;      // Menggunakan Interface
 
 namespace Abstraction
 {
@@ -13,7 +13,7 @@ namespace Abstraction
     {
         static void Main(string[] args)
         {
-            Perusahaan perusahaan;
+            Perusahaan perusahaan;          // Menggunakan Abstract Class
             perusahaan = new Karyawan();
             perusahaan.Jabatan();
 
@@ -26,7 +26,7 @@ namespace Abstraction
             perusahaan.Jabatan();
 
 
-            /*Perusahaan perusahaan;
+            /*IPerusahaan perusahaan;       // Menggunakan Abstract Class
             perusahaan = new Karyawan();
             perusahaan.Jabatan();
 
